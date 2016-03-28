@@ -1,4 +1,11 @@
 # TwitterAnalysis
+Apply Twitter application and get Oauth authentication to access the Twitter Public
+Streaming API.
+Click Get OAuth Signature
+Catch status from public stream
+Open a terminal and run the cURL command. Save the data into a json file. Wait 15 mins, and
+end the collecting process. cURL command will only be valid for a few minutes. If it’s not
+valid,get OAuth Signature once more.
 Please run: data_processing.py firist
 Raw data sholud be named as twitterstream.json
 Also put it with python file together
